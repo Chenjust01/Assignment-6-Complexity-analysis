@@ -22,7 +22,7 @@ I counted myArr[x++] = new IntPair(arr[i],arr[j]);
 
 The loop will iterate through two loops. The loop will iterate through the array depending on the length. If the length is long, then loop will be iterating longer. The loop will only terminate when the function finds each element’s possible pairs. 
 
-The worst-case scenario T(n2)
+The worst-case scenario T(n^2)
 
 
 
@@ -30,7 +30,7 @@ Problem 4:
 
 I counted how many times the array is called. 
 
-The worst-case scenario T(n2) it is because there are two for loops in my program. 
+The worst-case scenario T(n^2) it is because there are two for loops in my program. 
 
 Yes, with the new information my answer has change. There are two arrays and my code complexity depends on the array two array size. If the array is the same, then it will be O(n) =O(m). If n < m then the run time will be O(m). Otherwise it will be O(n). 
 
