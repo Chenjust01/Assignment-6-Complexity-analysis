@@ -35,6 +35,7 @@ The worst-case scenario T(n^2) it is because there are two for loops in my progr
 Yes, with the new information my answer has change. There are two arrays and my code complexity depends on the array two array size. If the array is the same, then it will be O(n) =O(m). If n < m then the run time will be O(m). Otherwise it will be O(n). 
 
 Problem 5 
+I counted how many times the array is called. 
 
 The worst-case scenario is O (m + n)
 
