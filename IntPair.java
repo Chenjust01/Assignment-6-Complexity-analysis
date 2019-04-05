@@ -30,9 +30,13 @@ public class IntPair {
 	  public String toString() {
 		  return "(" + getFst() + ", " + getSnd() + ")";
 	  }
-	// N^2
+	/**
+	 * 
+	 * @param arr an array to create pairs for
+	 * @return an array of all possible pairs
+	 */
 	  public static IntPair[] allPairs(int[] arr) {
-		 // NewKeywordExample obj = new NewKeywordExample();
+
 		  IntPair myArr[] = new IntPair[(arr.length * arr.length)];
 		  int x = 0;
 		  if(arr.length == 0) {

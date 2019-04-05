@@ -5,10 +5,16 @@ package assignment;
 
 /**
  * @author Justin
- *
+ * citation https://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/
  */
 public class FastExponentiation {
-
+/**
+ * 
+ * @param x the based number
+ * @param y the power of the x
+ * @param m mod 
+ * @return
+ */
 	public static int fastModExp(int x, int y, int m) {
   
 	    if (x == 0)  

@@ -8,7 +8,13 @@ package assignment;
  *
  */
 public class Interleave {
-
+/**
+ * takes two arrays of integers and returns a third array that is the result of 
+ * interleaving the first array with the second.
+ * @param arr an array of integer
+ * @param arr2 an array of integer
+ * @return temp a new combined of arr and arr2
+ */
 	public static int[] interleave(int[] arr, int[] arr2) {
 
 		int[] temp = new int[arr.length + arr2.length];
